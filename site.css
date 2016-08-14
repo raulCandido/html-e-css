@@ -17,6 +17,7 @@ body{
    background-color: #f2fffc;
    font-size: 120%;
    font-family: "Crimson Text","Times New Roman",serif;
+   line-height: 1.5;
 }
 p{
 	text-align: justify;
@@ -39,7 +40,7 @@ blockquote{
    margin: 0;
 }
 aside{
-   border: solid 20px #C2CCCA;
+   border-bottom: solid 10px black;
    background-color: #3C1D3D;
    color: #F2FFFC;
    padding: 20px;
