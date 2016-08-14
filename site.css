@@ -10,8 +10,7 @@ h2{
     margin: 0;
 }
 main div{
-   margin-left: 150px;
-   margin-right: 150px;
+  margin: auto;
    width: 720px;
 }
 body{
@@ -45,6 +44,7 @@ aside{
    color: #F2FFFC;
    padding: 20px;
    margin-top: 10px;
+   text-align: center;
 }
 nav a{
    color: #F2FFFC;
