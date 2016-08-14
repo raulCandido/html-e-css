@@ -8,12 +8,25 @@ main h1 {
    text-align: center;
    padding: 25px;
    border: 10px solid #C2CCCA;
-   margin: 0;
+   font-size: 60px;
+}
+
+main h2 {
+   font-size: 30px;
 }
 
 main div {
    margin: auto;
    width: 720px;
+   padding: 30px;
+}
+
+strong {
+   font-weight: bold;
+}
+
+em {
+   font-style: italic;
 }
 
 body {
@@ -25,10 +38,11 @@ body {
 
 p {
    text-align: justify;
+   margin-bottom: 20px;
+   margin-top: 20px;
 }
 
-h2,
-h1 {
+h2,h1 {
    font-family: "Open Sans Condensed", sans-serif;
 }
 
@@ -47,7 +61,10 @@ blockquote {
    border-right-color: #fff;
    width: 250px;
    box-sizing: border-box;
-   margin: 0;
+  margin: 20px 40px;
+}
+aside h1{
+   font-size: 30px;
 }
 
 aside {
