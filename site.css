@@ -66,7 +66,6 @@ blockquote {
 aside h1{
    font-size: 30px;
 }
-
 aside {
    border-bottom: solid 10px black;
    background-color: #3C1D3D;
@@ -91,4 +90,8 @@ main a {
 aside a {
    color: inherit;
    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside li{
+   display: inline-block;
 }
