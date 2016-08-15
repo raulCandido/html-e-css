@@ -92,6 +92,6 @@ aside a {
    font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside li{
-   display: none;
+.icones-sociais li {
+    display: inline-block;
 }
