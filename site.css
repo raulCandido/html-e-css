@@ -54,7 +54,14 @@ h2,h1 {
    padding: 20px;
    margin-top: 20px;
 }
-
+.link-artigo{
+   font-size: 24px;
+   padding: 8px;
+   margin: 16px;
+   background-color: #E6E7E8;
+   text-align: center;
+   display: block;
+}
 .citacoes-direita{
    background-color: #D9E5E3;
    padding: 20px;
