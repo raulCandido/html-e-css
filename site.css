@@ -46,6 +46,10 @@ p {
 h2,h1 {
    font-family: "Open Sans Condensed", sans-serif;
 }
+main h1{
+	text-transform: uppercase;
+}
+
 
 
 .rodape-pagina{
@@ -76,6 +80,7 @@ h2,h1 {
 
 aside h1{
    font-size: 30px;
+	text-transform: uppercase;
 }
 .navegacao-site{
    border-bottom: solid 10px black;
@@ -87,6 +92,7 @@ aside h1{
 }
 nav a {
    color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 article footer {
@@ -109,6 +115,27 @@ aside a {
    font-family: "Open Sans Condensed", sans-serif;
 }
 
-.icones-redes-sociais li {
+
+.icones-sociais li {
     display: inline-block;
 }
+.icones-sociais-texto a {
+    width: 40px;
+    height: 40px;
+    display: block;
+	text-indent: -99999px;
+}
+.icone-github{
+	background-image: url(github.png);
+}
+.icone-twitter{
+	background-image: url(twitter.png)
+}
+.icone-linkedin{
+	background-image: url(linkedin.png);
+}
+.icone-facebook{
+	background-image: url(icon-facebook.png);
+}
+
+

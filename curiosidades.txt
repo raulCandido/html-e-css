@@ -1,0 +1,1 @@
+Por não examinarem o CSS, as ferramentas de busca não encontrarão e, portanto, não indexarão as imagens referenciadas no CSS. Isso pode ser ou não interessante. Se usamos corretamente a técnica image replacement, apenas imagens secundárias, supérfluas para o conteúdo, serão ignoradas; as imagens mais importantes ficam no HTML e, portanto, são indexadas.
