@@ -123,7 +123,7 @@ aside a {
     width: 40px;
     height: 40px;
     display: block;
-	text-indent: -99999px;
+	font-size: 0;
 }
 .icone-github{
 	background-image: url(github.png);
