@@ -6,3 +6,8 @@ Um outro problema com o valor muito grande e negativo da propriedade text-indent
 Por outro lado, usar o font-size com valor zero não é bem interpretado por todos os navegadores. Alguns simplesmente ignoram uma declaração desse tipo; outros, mesmo com o tamanho zerado, mostram o texto numa fonte pequena. Ou seja, há um problema de compatibilidade com essa técnica, que a propriedade text-indent não tem.
 
 A solução é lembrar que floats seguidos formam uma linha.
+
+Quando fazemos isso, o primeiro parágrafo ficará completamente para cima da citação. O parágrafo seguinte e o resto do conteúdo ficarão ao lado dela.
+Isso acontece pois o elemento, quando flutua, flutua na mesma altura da página em que ele aparecia antes. Ou seja, sem flutuar, a citação apareceria abaixo do primeiro parágrafo; quando flutua, continua flutuando abaixo desse parágrafo.
+
+Com isso, vemos como é importante entender como está o fluxo da página antes de fazermos um elemento flutuar.

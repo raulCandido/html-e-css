@@ -109,6 +109,7 @@ aside h1{
    padding: 20px;
    margin-top: 10px;
    text-align: center;
+   float: right;
 }
 nav a {
    color: #F2FFFC;
