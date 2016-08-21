@@ -4,3 +4,5 @@
 Um outro problema com o valor muito grande e negativo da propriedade text-indent é que esse valor muito grande pode fazer com que o navegador gaste muita memória para exibir a página, pois agora ele precisa levar em consideração um elemento muito grande nos cálculos para a exibição da página.
 
 Por outro lado, usar o font-size com valor zero não é bem interpretado por todos os navegadores. Alguns simplesmente ignoram uma declaração desse tipo; outros, mesmo com o tamanho zerado, mostram o texto numa fonte pequena. Ou seja, há um problema de compatibilidade com essa técnica, que a propriedade text-indent não tem.
+
+A solução é lembrar que floats seguidos formam uma linha.
