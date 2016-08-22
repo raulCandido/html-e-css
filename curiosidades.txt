@@ -11,3 +11,10 @@ Quando fazemos isso, o primeiro parágrafo ficará completamente para cima da ci
 Isso acontece pois o elemento, quando flutua, flutua na mesma altura da página em que ele aparecia antes. Ou seja, sem flutuar, a citação apareceria abaixo do primeiro parágrafo; quando flutua, continua flutuando abaixo desse parágrafo.
 
 Com isso, vemos como é importante entender como está o fluxo da página antes de fazermos um elemento flutuar.
+
+Quando passamos o valor relative para a propriedade position, conseguimos mudar a posição do elemento de acordo com a posição original dele. 
+
+O valor que faz com que um elemento fique na mesma posição independente da rolagem da página é o fixed. O absolute coloca um elemento em qualquer parte da página, mas o elemento é afetado pela rolagem da página.
+
+Quando usamos a declaração position: relative, as propriedades top, left, bottom e right fazem com que o elemento se desloque com relação à sua posição original, tanto quanto desejarmos. Ou seja, top: 10px vai fazer com que o elemento desloque 10 pixels para baixo.
+Assim, se usamos top: 0, estamos dizendo que queremos deslocar o elemento zero pixels para baixo, ou seja, o elemento não sairá do lugar.
