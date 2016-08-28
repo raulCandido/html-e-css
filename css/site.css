@@ -1,3 +1,4 @@
+
 h2 {
    font-size: 22px;
    clear: both;
@@ -7,10 +8,10 @@ h2 {
    background-color: #851944;
    color: #ffffff;
    text-align: center;
-   font-size: 60px;
-   padding: 25px;
+   font-size: 300%;
+   padding: 2rem;
    border: 10px solid #C2CCCA;
-
+   border-bottom: .5rem solid #000;
 }
 
 
@@ -39,7 +40,7 @@ em {
 
 body {
    background-color: #f2fffc;
-   font-size: 120%;
+   font-size: 200%;
    font-family: "Crimson Text", "Times New Roman", serif;
    line-height: 1.5;
 }
