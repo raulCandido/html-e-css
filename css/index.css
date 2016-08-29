@@ -1,5 +1,104 @@
+.palavras-chave {
+   font-weight: bold;
+   color: #D5447E;
+   font-size: .3em;
+   font-family: "Shadows Into Light Two", cursive;
+}
+
+.eficiencia {
+   position: absolute;
+   top: 87%;
+   left: 23%;
+}
+
+.boas-praticas {
+   position: absolute;
+   top: 44%;
+   right: 33%;
+}
+
+.codigo-limpo {
+   position: absolute;
+   top: 88%;
+   right: 15%;
+}
+
+.css3 {
+   position: absolute;
+   top: 74%;
+   right: 45%;
+
+}
+
+.html5 {
+   position: absolute;
+   top: 2%;
+   right: 2%;
+}
+
+.javascript {
+   position: absolute;
+   top: 0%;
+   right: 64%;
+}
+
+.acessabilidade {
+   position: absolute;
+   top: 10%;
+   right: 10%
+}
+
+.responsivo {
+   position: absolute;
+   top: 22%;
+   left: 15%;
+}
+
+.otimizacao {
+   position: absolute;
+   top: 33%;
+   right: 6%;
+}
+
+.agilidade {
+   position: absolute;
+   top: 47%;
+}
+
+.Design {
+   position: absolute;
+   top: 76%;
+   right: 22%;
+}
+.blog .apresentacao-post{
+   position: absolute;
+   top: 3em;
+   height: 8em;
+   left: 30%;
+   right: 4em;
+}
+.primeiro-post{
+   background: #F2FFFC;
+   width: 29.5%;
+   border-radius: 10px;
+}
+.blog .primeiro-post a{
+   color: #f26;
+}
+.apresentacao-post {
+   background: #F2FFFC;
+   color: #000;
+   position: absolute;
+   top: 8em;
+   right: 10em;
+   height: 6em;
+   padding: 1.5em;
+   border-radius: 10px;
+}
+
 .foto-home {
    height: 200px;
+   border-radius: 10px;
 }
 
 .subtitulo-principal {
@@ -44,8 +143,11 @@
    font-size: 1.25em;
    padding: .5em;
    margin: 2em auto;
+   border-radius: 10px;
 }
-
+.trabalhos .imagens-site{
+   border-radius: 10px;
+}
 .secao-inicio {
    padding: 2em;
 }
@@ -86,10 +188,10 @@
    background-color: #999;
    color: #FFF;
    border-bottom: .1em solid #851944;
+   position: relative;
 }
 
 .blog small {
-   position: relative;
    top: -2em;
 }
 

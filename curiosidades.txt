@@ -47,3 +47,5 @@ A medida em tem o valor correspondente ao tamanho de fonte definido no elemento.
 A medida rem (abreviação para root em) é referente ao tamanho de fonte base da página, que normalmente é o tamanho de fonte padrão do navegador, mas que pode ser alterado usando a propriedade font-size do elemento html
 ---------------------------------------------------------
 A medida porcentagem varia de acordo com a propriedade na qual é usada. Se usada na propriedade font-size, é relativa ao tamanho de fonte do pai do elemento. Se usada nas propriedades margin, padding e width, é relativa à largura do pai do elemento. Por fim, se usada na propriedade height, é relativa à altura do pai do elemento.
+---------------------------------------------------------
+position: absolute é sempre relativo ao primeiro pai dele que possuir um position definido. Se não definirmos para o pai, o filho estará posicionado em relação à tela do navegador

@@ -12,6 +12,7 @@ h2 {
    padding: 2rem;
    border: 10px solid #C2CCCA;
    border-bottom: .5rem solid #000;
+   position: relative;
 }
 
 
