@@ -52,3 +52,5 @@ position: absolute é sempre relativo ao primeiro pai dele que possuir um positi
 ---------------------------------------------------------
 Quando declaramos a propriedade perspective, ativamos uma cena 3D dentro do elemento na qual ela foi declarada. Porém, essa cena 3D, por padrão, não se estende aos elementos mais internos dele.
 A declaração transform-style: preserve-3d faz com que o navegador preserve as transformações 3D dos filhos de um elemento na hora de calcular a perspectiva.
+-----------------------------------------------------------
+O `a` logo apos o rgb formando o rgba significa a opacidade do da cor escolhida no rgb

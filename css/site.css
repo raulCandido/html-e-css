@@ -15,13 +15,16 @@ h2 {
    position: relative;
    perspective-origin: 50% 160px;
 }
+.titulo-principal h1{
+   text-shadow: 5px 5px #000;
+   text-transform: uppercase;
+}
 
 
 main h2 {
    font-size: 30px;
 }
 .centralizar-pagina{
-
    margin: auto;
    width: 85%;
    padding: 30px;
@@ -62,7 +65,7 @@ main h1{
 
 .rodape-pagina{
    color: white;
-   background-color: black;
+   background-color: rgba(0, 0, 0, .5);
    padding: 20px;
    margin-top: 20px;
    clear: both;
@@ -71,6 +74,7 @@ main h1{
    bottom: 0px;
    left: 0px;
    box-sizing: border-box;
+   opacity: .5;
 }
 .link-artigo{
    font-size: 24px;

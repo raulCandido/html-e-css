@@ -6,6 +6,19 @@ body{
    perspective: 6px;
    perspective-origin: 50% 160px;
 }
+.caixa-dialogo{
+   width: 40%;
+   background: #fff;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 9999;
+   box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
+   padding: 10% 3%;
+   text-align: center;
+   font-size: 2em;
+}
 
 .banner-twitter {
    background-color: #3C1D3D;
@@ -34,8 +47,8 @@ body{
 
 .palavras-chave {
    font-weight: bold;
-   color: #D5447E;
    font-size: 100%;
+   color: rgba(255, 127, 127, 0.5);
    font-family: "Shadows Into Light Two", cursive;
    position: absolute;
    top: 0;
@@ -75,6 +88,7 @@ body{
    right: 45%;
     -webkit-transform: rotate(36deg);
    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+   opacity: .2;
 }
 
 .html5 {
@@ -164,6 +178,7 @@ body{
 .foto-home {
    height: 200px;
    border-radius: 10% 50% / 50% 10%;
+   box-shadow: 0 0 1em #000;
 }
 
 .subtitulo-principal {
@@ -202,13 +217,14 @@ body{
    background-color: #851944;
    color: #FFF;
    border: .1em solid black;
-   width: 400px;
+   width: 40ch;
    display: block;
    text-align: center;
    font-size: 1.25em;
    padding: .5em;
    margin: 2em auto;
    border-radius: 10px;
+   box-shadow: 0 0 1em   #000, inset 0 0 .5em #3C1D3D;
 }
 
 .trabalhos .imagens-site {
