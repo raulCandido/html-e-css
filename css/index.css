@@ -1,0 +1,304 @@
+html, body{
+   overflow-x: hidden;
+   height: 100%;
+}
+body{
+   perspective: 6px;
+   perspective-origin: 50% 160px;
+}
+.caixa-dialogo{
+   width: 40%;
+   background: #fff;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 9999;
+   box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
+   padding: 10% 3%;
+   text-align: center;
+   font-size: 2em;
+}
+
+.banner-twitter {
+   background-color: #3C1D3D;
+   border: .25em solid black;
+   box-sizing: border-box;
+   color: white;
+   text-decoration: none;
+   font-size: 0.2em;
+   width: 14em;
+   line-height: 1;
+   text-align: center;
+   padding: 0em 5em;
+   font-family: "Open Sans Condensed", sans-serif;
+   position: absolute;
+   top: 0;
+   right: 0;
+   transform-origin: 0 0;
+   transform: translate(6.5765em, -2.4745em)rotate(45deg);
+}
+
+
+.palavra-destaque-principal {
+   display: inline-block;
+   transform: rotate(-5deg) skew(-10deg);
+}
+
+.palavras-chave {
+   font-weight: bold;
+   font-size: 100%;
+   color: rgba(255, 127, 127, 0.5);
+   font-family: "Shadows Into Light Two", cursive;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+}
+
+.eficiencia {
+   position: absolute;
+   top: 62%;
+   left: 38%;
+   -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+   transform-style: preserve-3d;
+}
+
+.boas-praticas {
+   position: absolute;
+   top: 44%;
+   right: 33%;
+    -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.codigo-limpo {
+   position: absolute;
+   top: 50%;
+   right: 15%;
+   -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.css3 {
+   position: absolute;
+   top: 60%;
+   right: 45%;
+    -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+   opacity: .2;
+}
+
+.html5 {
+   position: absolute;
+   top: 78%;
+   right: 2%;
+   -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.javascript {
+   position: absolute;
+   top: 0%;
+   right: 64%;
+    -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.acessabilidade {
+   position: absolute;
+   top: 10%;
+   right: 10% -webkit-transform: rotate(68deg);
+    -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.responsivo {
+   position: absolute;
+   top: 22%;
+   left: 15%;
+    -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.otimizacao {
+   position: absolute;
+   top: 33%;
+   right: 17%;
+   -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.agilidade {
+   position: absolute;
+   top: 47%;
+   -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.Design {
+   position: absolute;
+   top: 60%;
+   right: 22%;
+   -webkit-transform: rotate(36deg);
+   transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
+}
+
+.blog .apresentacao-post {
+   position: absolute;
+   top: 3em;
+   height: 8em;
+   left: 30%;
+   right: 4em;
+}
+
+.primeiro-post {
+   background: #F2FFFC;
+   width: 29.5%;
+   border-radius: 10px;
+}
+
+.blog .primeiro-post a {
+   color: #f26;
+}
+
+.apresentacao-post {
+   background: #F2FFFC;
+   color: #000;
+   position: absolute;
+   top: 8em;
+   right: 10em;
+   height: 6em;
+   padding: 1.5em;
+   border-radius: 10px;
+}
+
+.foto-home {
+   height: 200px;
+   border-radius: 10% 50% / 50% 10%;
+   box-shadow: 0 0 1em #000;
+}
+
+.subtitulo-principal {
+   text-align: center;
+   font-size: .5em;
+}
+
+.saudacao p {
+   font-size: 1.5em;
+   color: #99A;
+   line-height: 1;
+   padding: 2em;
+}
+
+.saudacao-inicio {
+   color: #889;
+   font-size: 3em;
+}
+
+.saudacao-ultima-linha {
+   text-align: right;
+   display: block;
+}
+
+.saudacao strong {
+   color: #000;
+   font-size: 2em;
+}
+
+.saudacao em {
+   color: #851944;
+   font-size: 4em;
+}
+
+.botao-index {
+   background-color: #851944;
+   color: #FFF;
+   border: .1em solid black;
+   width: 40ch;
+   display: block;
+   text-align: center;
+   font-size: 1.25em;
+   padding: .5em;
+   margin: 2em auto;
+   border-radius: 10px;
+   box-shadow: 0 0 1em   #000, inset 0 0 .5em #3C1D3D;
+}
+
+.trabalhos .imagens-site {
+   border-radius: 10px;
+}
+
+.secao-inicio {
+   padding: 2em;
+}
+
+.secao-inicio h2 {
+   text-transform: uppercase;
+   font-size: 3em;
+   text-shadow: 2px 2px #000;
+   margin-bottom: .5em;
+}
+
+.trabalhos {
+   background-color: #3C1D3D;
+   border-top: 1em solid #000;
+   border-bottom: 1em solid #000;
+}
+
+.trabalhos h2 {
+   color: #FFF;
+}
+
+.trabalhos ul {
+   overflow: hidden;
+   border: .1em solid black;
+}
+
+.trabalhos li {
+   float: left;
+   width: 33.333%;
+}
+
+.trabalhos img {
+   width: 100%;
+   display: block;
+}
+
+.blog {
+   background-color: #999;
+   color: #FFF;
+   border-bottom: .1em solid #851944;
+   position: relative;
+}
+
+.blog small {
+   top: -2em;
+}
+
+.blog li a {
+   color: #FCF;
+   padding: .5em;
+   display: block;
+}
+
+footer {
+   background-color: #000;
+   color: #FFF;
+}
+
+footer h2 {
+   font-size: 3em;
+}
+
+footer a {
+   color: #F99;
+}
+
+main {
+   width: 100%;
+   padding-bottom: 0;
+   float: none;
+}

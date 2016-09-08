@@ -1,3 +1,4 @@
+
 h2 {
    font-size: 22px;
    clear: both;
@@ -7,10 +8,16 @@ h2 {
    background-color: #851944;
    color: #ffffff;
    text-align: center;
-   font-size: 60px;
-   padding: 25px;
+   font-size: 300%;
+   padding: 2rem;
    border: 10px solid #C2CCCA;
-
+   border-bottom: .5rem solid #000;
+   position: relative;
+   perspective-origin: 50% 160px;
+}
+.titulo-principal h1{
+   text-shadow: 5px 5px #000;
+   text-transform: uppercase;
 }
 
 
@@ -18,7 +25,6 @@ main h2 {
    font-size: 30px;
 }
 .centralizar-pagina{
-
    margin: auto;
    width: 85%;
    padding: 30px;
@@ -39,7 +45,7 @@ em {
 
 body {
    background-color: #f2fffc;
-   font-size: 120%;
+   font-size: 200%;
    font-family: "Crimson Text", "Times New Roman", serif;
    line-height: 1.5;
 }
@@ -59,7 +65,7 @@ main h1{
 
 .rodape-pagina{
    color: white;
-   background-color: black;
+   background-color: rgba(0, 0, 0, .5);
    padding: 20px;
    margin-top: 20px;
    clear: both;
@@ -68,6 +74,7 @@ main h1{
    bottom: 0px;
    left: 0px;
    box-sizing: border-box;
+   opacity: .5;
 }
 .link-artigo{
    font-size: 24px;

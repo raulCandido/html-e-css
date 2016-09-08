@@ -1,0 +1,19 @@
+div{
+      margin: 20% 50%;
+}
+.img1{
+   background-color: black;
+   height: 50px;
+   width: 50px;
+   display: inline-block;
+
+}
+.img2{
+   background-color: darkred;
+   height: 50px;
+   width: 50px;
+   display: inline-block;
+   transform: translateX(300px)rotate(45deg) scale(1.5);
+   margin-left: 50px;
+}
+

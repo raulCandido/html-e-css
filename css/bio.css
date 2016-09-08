@@ -1,12 +1,12 @@
 .citacoes-direita{
    background-color: #D9E5E3;
-   padding: 20px;
-   border: 10px solid transparent;
+   padding: 1em;
+   border: .5em solid transparent;
    border-bottom-color: #333;
    border-right-color: #fff;
-   width: 250px;
+   width: 30ch;
    box-sizing: border-box;
-   margin: 20px 40px;
+   margin: 1em 2em;
    float: right;
    clear: both;
 }
@@ -24,4 +24,7 @@
 .autor-citacao{
    float: right;
    font-style: italic;
+}
+.citacao-bio{
+   font-size: 300%;
 }

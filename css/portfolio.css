@@ -14,5 +14,6 @@
 .portfolio img {
    width: 100%;
    text-align: justify;
+   box-shadow: 0 0 30px #000,0 0 40px #FAFFFC,0 0 50px red;
 }
 
