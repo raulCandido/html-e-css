@@ -14,7 +14,7 @@ h2 {
    border-bottom: .5rem solid #000;
    position: relative;
    perspective-origin: 50% 160px;
-   background-image: linear-gradient(to bottom, #f00,#888 80%, #000);
+   background-image: linear-gradient(to bottom, #fff,#888 100%, #000);
    background-size: 100% 200px;
    background-repeat: no-repeat;
    background-attachment: fixed;
