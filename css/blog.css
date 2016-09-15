@@ -4,7 +4,10 @@ article footer {
 
 article{
    padding-bottom: 30px;
-   border-bottom: 2px solid #ccc;
+   background-image: linear-gradient(to right, rgba(200,200,200,0), rgba(200,200,200,1), rgba(200,200,200,0));
+   background-size: 100% 5px;
+   background-repeat: no-repeat;
+   background-position: bottom center;
    margin-bottom: 20px;
 
 }
