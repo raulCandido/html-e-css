@@ -54,3 +54,16 @@ Quando declaramos a propriedade perspective, ativamos uma cena 3D dentro do elem
 A declaração transform-style: preserve-3d faz com que o navegador preserve as transformações 3D dos filhos de um elemento na hora de calcular a perspectiva.
 -----------------------------------------------------------
 O `a` logo apos o rgb formando o rgba significa a opacidade do da cor escolhida no rgb
+-----------------------------------------------------------
+seletores
+tag
+id
+classe
+ancestral descendente
+irmão ~ irmão
+irmão + irmão seguinte
+pai > filho
+------------------------------------------------------------
+é possível, com a pseudoclasse nth-child ou a nth-of-type. Em ambos os casos, basta passar a fórmula n+2 para ela e os elementos a partir do segundo serão selecionados
+---------------------------------------------------------------
+Para que um elemento seja filho único, ele precisa ser primeiro e último filho ao mesmo tempo. Para selecionar um elemento com essas características, podemos combinar as pseudoclasses :nth-child(1) e :nth-last-child(1)

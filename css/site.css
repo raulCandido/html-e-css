@@ -112,6 +112,10 @@ aside h1{
    position: relative;
    top: 140px;
 }
+.navegacao-site a:hover,
+.navegacao-site a:focus{
+   text-shadow: 0 0 2px pink;
+}
 nav a {
    color: #F2FFFC;
 	text-transform: lowercase;

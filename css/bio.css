@@ -25,6 +25,5 @@
    float: right;
    font-style: italic;
 }
-.citacao-bio{
-   font-size: 300%;
-}
+
+.citacao-bio:nth-of-type(odd)
