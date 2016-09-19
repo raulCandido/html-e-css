@@ -1,12 +1,15 @@
-html, body{
+html,
+body {
    overflow-x: hidden;
    height: 100%;
 }
-body{
+
+body {
    perspective: 6px;
    perspective-origin: 50% 160px;
 }
-.caixa-dialogo{
+
+.caixa-dialogo {
    width: 40%;
    background: #fff;
    position: fixed;
@@ -39,7 +42,6 @@ body{
    transform: translate(6.5765em, -2.4745em)rotate(45deg);
 }
 
-
 .palavra-destaque-principal {
    display: inline-block;
    transform: rotate(-5deg) skew(-10deg);
@@ -70,7 +72,7 @@ body{
    position: absolute;
    top: 44%;
    right: 33%;
-    -webkit-transform: rotate(36deg);
+   -webkit-transform: rotate(36deg);
    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
 }
 
@@ -86,7 +88,7 @@ body{
    position: absolute;
    top: 60%;
    right: 45%;
-    -webkit-transform: rotate(36deg);
+   -webkit-transform: rotate(36deg);
    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
    opacity: .2;
 }
@@ -103,7 +105,7 @@ body{
    position: absolute;
    top: 0%;
    right: 64%;
-    -webkit-transform: rotate(36deg);
+   -webkit-transform: rotate(36deg);
    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
 }
 
@@ -111,7 +113,7 @@ body{
    position: absolute;
    top: 10%;
    right: 10% -webkit-transform: rotate(68deg);
-    -webkit-transform: rotate(36deg);
+   -webkit-transform: rotate(36deg);
    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
 }
 
@@ -119,7 +121,7 @@ body{
    position: absolute;
    top: 22%;
    left: 15%;
-    -webkit-transform: rotate(36deg);
+   -webkit-transform: rotate(36deg);
    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
 }
 
@@ -224,7 +226,7 @@ body{
    padding: .5em;
    margin: 2em auto;
    border-radius: 10px;
-   box-shadow: 0 0 1em   #000, inset 0 0 .5em #3C1D3D;
+   box-shadow: 0 0 1em #000, inset 0 0 .5em #3C1D3D;
 }
 
 .trabalhos .imagens-site {
@@ -246,7 +248,11 @@ body{
    background-color: #3C1D3D;
    border-top: 1em solid #000;
    border-bottom: 1em solid #000;
-   background-image: linear-gradient(165deg, black 5px);
+   background-image: -webkit-linear-gradient(top left, transparent, transparent 14px, rgba(0, 0, 0, 0.1) 14px, rgba(0, 0, 0, 0.1) 15px, transparent 15px, transparent);
+   background-image: -o-linear-gradient(top left, transparent, transparent 14px, rgba(0, 0, 0, 0.1) 14px, rgba(0, 0, 0, 0.1) 15px, transparent 15px, transparent);
+   background-image: linear-gradient(to bottom right, transparent, transparent 14px, rgba(0, 0, 0, 0.1) 14px, rgba(0, 0, 0, 0.1) 15px, transparent 15px, transparent);
+   background-size: 20px 20px;
+   background-attachment: fixed;
 }
 
 .trabalhos h2 {
@@ -273,6 +279,9 @@ body{
    color: #FFF;
    border-bottom: .1em solid #851944;
    position: relative;
+   background-image: linear-gradient(45deg, transparent, transparent 14px, rgba(255, 255, 255, 0.1) 14px, rgba(255, 255, 255, 0.1) 15px, transparent 15px, transparent);
+   background-size: 20px 20px;
+   background-attachment: fixed;
 }
 
 .blog small {
@@ -302,4 +311,11 @@ main {
    width: 100%;
    padding-bottom: 0;
    float: none;
+}
+
+main a:focus,
+main a:hover,
+footer a:focus,
+footer a:hover {
+   color: red;
 }
