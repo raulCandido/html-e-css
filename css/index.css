@@ -151,7 +151,7 @@ body {
 
 .blog .apresentacao-post {
    position: absolute;
-   top: 3em;
+   top: 15rem;
    height: 8em;
    left: 30%;
    right: 4em;
@@ -161,21 +161,22 @@ body {
 }
 .config-posts{
    margin-bottom: 1rem;
-}
-.primeiro-post {
+   width: 26.5%;
    background: #F2FFFC;
-   width: 29.5%;
    border-radius: 10px;
 }
-.segundo-post{
-   background: #F2FFFC;
-   width: 29.5%;
-   border-radius: 10px;
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post{
+   display: block;
 }
-.terceiro-post{
-   background: #F2FFFC;
-   width: 29.5%;
-   border-radius: 10px;
+.blog li:hover,
+.blog li:focus{
+   width: 30%
+}
+.blog a:hover,
+.blog a:focus{
+   background: #f2fffc;
+   color: #f26;
 }
 
 .blog .primeiro-post a {
