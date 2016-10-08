@@ -9,6 +9,7 @@ body {
    perspective-origin: 50% 160px;
 }
 
+
 .caixa-dialogo {
    width: 40%;
    background: #fff;
@@ -155,8 +156,23 @@ body {
    left: 30%;
    right: 4em;
 }
-
+.inicio-post{
+   display: none;
+}
+.config-posts{
+   margin-bottom: 1rem;
+}
 .primeiro-post {
+   background: #F2FFFC;
+   width: 29.5%;
+   border-radius: 10px;
+}
+.segundo-post{
+   background: #F2FFFC;
+   width: 29.5%;
+   border-radius: 10px;
+}
+.terceiro-post{
    background: #F2FFFC;
    width: 29.5%;
    border-radius: 10px;
