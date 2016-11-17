@@ -67,3 +67,6 @@ pai > filho
 é possível, com a pseudoclasse nth-child ou a nth-of-type. Em ambos os casos, basta passar a fórmula n+2 para ela e os elementos a partir do segundo serão selecionados
 ---------------------------------------------------------------
 Para que um elemento seja filho único, ele precisa ser primeiro e último filho ao mesmo tempo. Para selecionar um elemento com essas características, podemos combinar as pseudoclasses :nth-child(1) e :nth-last-child(1)
+
+--------------------------------------------------------------
+O placeholder permite que as frases escritas no HTML ("Seu nome aqui", por exemplo) apareçam nos campos do formulário. Quando clicamos elas não impedem a escrita e apagam-se quando começamos a escrever.
